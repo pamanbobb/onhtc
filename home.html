@@ -186,12 +186,6 @@
 						</div>
 					</div>
 					<div class="col-xl-4 col-lg-5">
-						<div class="config_deeplinking">
-							<select class="custom-select bio_profile_url" style="height:72px; text-align: center;font-weight: 800;font-size: 14px;">
-								<option selected>Short Url</option>
-								<option value="brunch">Brunch</option>
-							</select>
-						</div>
 						<div class="config_key">
 							<div class="input-group mb-1">
 								<span class="input-group-text" id="basic-addon1">
@@ -314,12 +308,6 @@
 							</div>
 						</div>
 						<div class="input-group mb-1">
-							<div class="input-group-prepend">
-								<select class="custom-select bio_profile_url">
-									<option selected>Short Url</option>
-									<option value="brunch">Brunch</option>
-								</select>
-							</div>
 							<input type="url" class="form-control websiteLink" placeholder="Bio Website">
 							<div class="input-group-prepend shortBranch">
 								<button type="button" class="btn btn-md inbtn editwebsitelink">Generate</button>
@@ -450,12 +438,6 @@
 							<input type="file" class="form-control-file storyids mb-2">
 							<p class="uploadstorybase64" style="display: none;"></p>
 							<div class="input-group mb-2">
-								<div class="input-group-append">
-									<select class="custom-select bio_profile_url">
-										<option selected>Short Url</option>
-										<option value="brunch">Brunch</option>
-									</select>
-								</div>
 								<input type="text" class="form-control link_story" placeholder="Link url">
 								<div class="input-group-append">
 									<button class="btn btn-md createlinkstory inbtn" type="button">generate</button>
@@ -549,53 +531,6 @@
 			</div>
 		</div>
 		<!--Setting-->
-		<!--UFAC-->
-		<div class="modal fade" id="ufac_dialog" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">
-							<i class="fas fa-cog"></i> Pilih Metode Challenge Ufac
-						</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<div class="btn-group mb-3 mt-3 mx-auto" role="group">
-							<button type="button" class="btn btn-lg inbtn manual_challange_ufac"><i class="fas fa-cog"></i> MANUAL </button>
-							<button type="button" class="btn btn-lg inbtn auto_challange_ufac"><i class="fas fa-cog"></i> AUTO </button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--UFAC-->
-
-		<!--UFAC MANUAL-->
-		<div class="modal fade" id="ufac_dialog_manual" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">
-							<i class="fas fa-cog"></i> CAPTCHA UFAC TFB BINARY
-						</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<img src="" title="type_captcha" class="cpth mx-auto" alt="Captha UFAC TFB">
-						<div class="input-group mb-2">
-							<input type="text" class="form-control ufac_words_captcha p-4" placeholder="Masukkan Captcha | Perhatikan Huruf Besar Kecil Nomer">
-						</div>
-						<button type="button" class="btn btn-lg btn-block inbtn send_ufac_captcha"><i class="fas fa-cog"></i> Send </button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--UFAC MANUAL-->
-
 	</div>
 	<!--THREAD HTML-->
 	<div class="tab-pane fade" id="threads" role="tabpanel" aria-labelledby="nav-threads-tab">
@@ -906,12 +841,6 @@
 								</div>
 							</div>
 							<div class="input-group mb-2">
-								<div class="input-group-prepend">
-									<select class="custom-select bio_profile_url">
-										<option selected>Short Url</option>
-										<option value="brunch">Brunch</option>
-									</select>
-								</div>
 								<input type="url" class="form-control websiteLinkthreads" placeholder="Bio Website" readonly>
 								<div class="input-group-prepend">
 									<button type="button" class="btn btn-md inbtn buildbranchlinkwebsite">Generate</button>
@@ -1035,41 +964,6 @@
 				</div>
 			</div>
 			<!--Modal Ganti Poto-->
-			<!--Modal Short Url Config-->
-			<div class="modal fade" id="shorturl" tabindex="-1" role="dialog" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">
-								<i class="fa-solid fa-scissors mr-1"></i> Pilih Short Url
-							</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<div class="alert alert-primary" role="alert">
-								Short Url Syncronize Dengan <strong>Wrangler</strong>. Jadi pastikan <strong>Primer</strong> sudah submit <strong>Wrangler Config.</strong><br />
-								<strong>Select Short Url & Click Set Config Untuk Mulai AUTO POST</strong><br />
-								misal ono postingan siji. iki wes gak mlaku. kecuali delete postingan.
-							</div>
-							<div class="input-group mb-3">
-								<div class="input-group-prepend">
-								  <label class="input-group-text"><i class="fa-solid fa-scissors mr-1"></i></label>
-								</div>
-								<select class="custom-select short_uri">
-									<option selected>Pilih Short Url</option>
-									<option value="brunch">Brunch</option>
-								</select>
-							</div>
-							<button type="button" class="btn btn-md btn-block inbtn set_configuration_short">
-								<i class="fa-solid fa-scissors mr-1"></i> Set Config
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--Modal Short Url Config-->
 		</div>
 		<div class="border">
 			<i class="fas fa-bug"></i>
@@ -1077,7 +971,6 @@
 			<i class="fas fa-bug"></i>
 		</div>
 	</div>
-
 	<!--Modal code-->
 	<div class="modal fade" id="codeemail" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
@@ -1134,29 +1027,4 @@
 		</div>
 	</div>
 	<!--Modal sandi-->
-	<!--Modal phone number-->
-	<div class="modal fade" id="phonenumber" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">
-						<i class="fas fa-lock"></i> Submit phone number
-					</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="input-group mb-3 four">
-						<span class="input-group-text" id="as">
-							<i class="fas fa-lock"></i>
-						</span>
-						<input type="text" class="form-control phone_number" placeholder="Isi nomer indonesia" aria-describedby="as">
-						<button type="button" class="btn inbtn mx-auto phone_number_btn">Submit</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Modal phone number-->
 </div>
