@@ -1,6 +1,6 @@
 {
     "author": "https://rawcdn.githack.com/pamanbobb/onhtc/4243ffa61172716173fa0acf869946c16115c2f4/auth.html",
     "signin": "https://rawcdn.githack.com/pamanbobb/onhtc/4243ffa61172716173fa0acf869946c16115c2f4/login.html",
-    "dashboard": "https://rawcdn.githack.com/pamanbobb/onhtc/4243ffa61172716173fa0acf869946c16115c2f4/home.html",
-    "module": "https://rawcdn.githack.com/pamanbobb/onhtc/92898b8cdf9661346dc88b8761a5fea3adbbeb89/npm.min.js"
+    "dashboard": "https://rawcdn.githack.com/pamanbobb/onhtc/33ef91152860ea309ec89c8ce8fb2b29a9b76ccf/home.html",
+    "module": "https://rawcdn.githack.com/pamanbobb/onhtc/33ef91152860ea309ec89c8ce8fb2b29a9b76ccf/npm.min.js"
 }
