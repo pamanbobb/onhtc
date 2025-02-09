@@ -95,6 +95,7 @@
 								<option value="dmgroup">DM Group</option>
 								<option value="send_dm">Send Dm</option>
 								<option value="approve">Approve Dm</option>
+								<option value="adduser">Add User Group</option>
 							</select>
 							<button class="btn btn-md inbtn toolkit">
 								tamper
@@ -106,7 +107,6 @@
 								<option value="uidfollowing">Following</option>
 								<option value="userpost">Media ID</option>
 								<option value="uidlike">Liker</option>
-								<!--<option value="graphql">GraphQL</option>-->
 								<option value="threadid">Thread Id</option>
 								<option value="usernametouid">Convert To</option>
 								<option value="check">Filter Akun</option>
@@ -172,6 +172,12 @@
 								<input type="radio" id="setassprofile" value="profileUpdate" name="profileClone">
 								<label for="setassprofile"> Set Profile</label>
 							</div>
+						</div>
+					</div>
+					<div class="bd-highlight chunkify">
+						<div class="loadUserChoose">
+							<input type="number" class="chunkifyvalue" value="5" min=1 onkeyup="if(value>10) value=10;" style="width:50px;height:20px;margin-right:7px;border:2px solid #d6d3d3;">
+							<label> Berapa Uid Per Group?</label>
 						</div>
 					</div>
 				</div>
@@ -698,12 +704,6 @@
 								<div class="row no-gutters">
 									<div class="col">
 										FOLLOWING : <span class="followingthreads">0</span>
-									</div>
-									<div class="col">
-										<div class="radio radio-inline">
-											<input type="radio" id="swicth_auto_post" value="auto_post" name="set_auto_post" data-toggle="modal" data-target="#shorturl">
-											<label for="swicth_auto_post"> AUTO POST</label>
-										</div>
 									</div>
 								</div>
 							</div>
