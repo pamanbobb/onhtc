@@ -1,12 +1,12 @@
 {
     "ig": {
-        "app_version": "367.0.0.43.89",
-        "app_version_code": "696011184",
-        "block_version_id": "d28822daa231c806db89aa437d18ecb097b50c3c03b2e7c92da6d7330da9dee2"
+        "app_version": "368.0.0.45.96",
+        "app_version_code": "700073650",
+        "block_version_id": "dbfb0f84b6481f4ec0a033d7947fb45db546b8cee18dde220c4c1eefd3bb3dcb"
     },
     "thread": {
-        "app_version": "367.0.0.38.98",
-        "app_version_code": "695702702",
-        "block_version_id": "549810f135937c8b376b85f97dc5089bc7cafe9c7835085b867412636710bb64"
+        "app_version": "368.0.0.40.109",
+        "app_version_code": "698828164",
+        "block_version_id": "af00a9a207a4691b7d730cd3d54b4d4373a38c208c3fce1114aa3a0ce8cf0389"
     }
 }
