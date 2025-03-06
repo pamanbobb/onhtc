@@ -583,6 +583,8 @@
 							<i class="fas fa-pen"></i> Edit Profile </span>
 						<span class="threads_btn postimgthreads" data-toggle="modal" data-target="#postimgthreads">
 							<i class="fa fa-plus"></i> Post Image </span>
+						<span class="threads_btn multiimagepost" data-toggle="modal" data-target="#multiimagepost">
+								<i class="fa fa-plus"></i> Multi Image </span>
 						<span class="threads_btn buatstatus" data-toggle="modal" data-target="#buatstatus">
 							<i class="fas fa-pen"></i> Post Status </span>
 					</div>
@@ -612,6 +614,7 @@
 									<option value="unfollowThreads">UnFollow</option>
 									<option value="likeuidThreads">Like</option>
 									<option value="commentuidThreads">Comment</option>
+									<option value="autopostcomment">Comment All My Post</option>
 								</select>
 								<button class="btn btn-md inbtn threadstoolstamper">
 									tamper
@@ -942,6 +945,32 @@
 				</div>
 			</div>
 			<!--Upload Photo Threads-->
+			<!--Upload Photo Multi Threads-->
+			<div class="modal fade" id="multiimagepost" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">
+								<i class="fas fa-image mr-2"></i>Upload Multi Img
+							</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="form-group">
+								<input type="file" class="form-control-file uploadmultiimage mb-2">
+								<div class="input-group mb-2">
+									<div class="multiimage"></div>
+								</div>
+								<button type="button" class="btn btn-md btn-block inbtn uploadmultithreadimage">
+									<i class="fa fa-upload"></i> Create </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Upload Photo Multi Threads-->
 			<!--Modal Ganti Poto-->
 			<div class="modal fade" id="editprofilephotoThreads" tabindex="-1" role="dialog" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
